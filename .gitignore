@@ -1,5 +1,4 @@
 # Environment variables
-.env
 .env.local
 .env.*.local
 
@@ -11,7 +10,6 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -33,7 +31,6 @@ node_modules/
 npm-debug.log
 yarn-error.log
 .npm
-dist/
 
 # IDE
 .vscode/
@@ -41,11 +38,9 @@ dist/
 *.swp
 *.swo
 *~
-.DS_Store
 
 # OS
 Thumbs.db
-.DS_Store
 
 # SQLite databases (if used)
 *.db
@@ -60,7 +55,3 @@ logs/
 .pytest_cache/
 .coverage
 htmlcov/
-
-# Build artifacts
-build/
-dist/
